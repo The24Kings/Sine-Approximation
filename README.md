@@ -41,16 +41,16 @@ Given an input `x`, the task is to predict the sine of `x` (i.e., `sin(x)`) usin
 
 In this project, we can track and visualize the progress of the PSO algorithm by plotting how the **global best** particle evolves. The global best particle represents the best solution found so far across all particles in the swarm. This visualization helps us understand the convergence behavior of the optimization process.
 
-I used the **matplotplusplus** library to generate visualizations similar to Python's `matplotlib`. By plotting the predicted sin wave of the global best particle against the actual sin wave I can visualize how well the global best particle is forming to the expected output. Along with that the velocity of the particle is ploted in black to represent how much movement is occuring between iterations.
+I used the **matplotplusplus** library to generate visualizations similar to Python's `matplotlib`. By plotting the predicted sin wave of the global best particle against the actual sin wave I can visualize how well the global best particle is forming to the expected output. The particle's velocity is also plotted in black to represent how much movement occurs between iterations.
 
 ## Global Best Visualization
 
 <div align="center">
-    <img src="https://isoptera.lcsc.edu/~rjziegler/sine-approx.png" width=800px/>
+    <img src="https://isoptera.lcsc.edu/~rjziegler/pictures/sine-approx.png" width=800px/>
 </div>
 
 ## Final Weights
 
 <div align="center">
-    <img src="https://isoptera.lcsc.edu/~rjziegler/neural-network.png" width=800px/>
+    <img src="https://isoptera.lcsc.edu/~rjziegler/pictures/neural-network.png" width=800px/>
 </div>
